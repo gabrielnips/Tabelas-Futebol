@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 30, 30, 30;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 120vh 140vh;
+  grid-template-rows: 35vh min-content;
+  gap: 65px 25px;
+  grid-template-areas:
+    "one two"
+    "one three"
+}
+
+.one {
+  grid-area: one;
+  padding: 50px 0;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
