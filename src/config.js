@@ -1,4 +1,3 @@
-const API_KEY = 'test_067c14e74bae5718d296f6af3ad395';
-// live_0e88cb58017f74590e71af9b7cb153
-// test_067c14e74bae5718d296f6af3ad395
+const API_KEY = 'test_067c14e74bae57183ad395';
+// pegue a apikey em https://api-futebol.com.br/dashboard
 export default API_KEY;
