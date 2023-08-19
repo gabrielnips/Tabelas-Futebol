@@ -9,7 +9,7 @@ Este projeto é um exemplo de como utilizar a API de futebol [api-futebol.com.br
 Certifique-se de configurar corretamente as chaves de autenticação para acesso à API, conforme explicado na documentação.
 
 
-![Tabelas de Futebol](https://media.discordapp.net/attachments/988546085410721882/1142297452100194385/image.png)
+![Tabelas de Futebol](https://media.discordapp.net/attachments/988546085410721882/1142302947087241417/ccccscreencapture-localhost-3000-2023-08-19-00_35_41.png)
 
 ## Como Usar
 
